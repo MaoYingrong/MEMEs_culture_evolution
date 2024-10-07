@@ -1,4 +1,5 @@
-# Exploring Collective Understanding and Ambiguity in Culture Evolution: A Study of Meme Production and Dissemination in the Largest Reddit Meme Community
+# Exploring Collective Understanding and Ambiguity in Culture Evolution  
+## A Study of Meme Production and Dissemination in the Largest Reddit Meme Community
 
 Internet memes are a vital part of digital culture, functioning not as singular units of cultural transmission but as a genre of communication. They are inherently tied to agency, as their production and dissemination involve constant changes, imitations, remixes, and modifications (Wiggins, 2019). Like other cultural forms, memes evolve through interaction, production, and the co-creation of meaning. Shifman (2013) suggests that memes should be understood as “groups of content items created with awareness of each other and sharing common characteristics” (p. 367). This project aims to explore how collective understanding is formed through meme interactions—whether this process is smooth or involves significant reinterpretations—and whether such understanding remains stable or shifts over time. Additionally, the study will examine how the ambiguity of meme templates affects their popularity and spread. While vagueness can encourage creativity and agency, it may also conflict with the establishment of collective understanding.
 
