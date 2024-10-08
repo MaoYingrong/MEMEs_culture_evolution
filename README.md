@@ -11,7 +11,7 @@ Research Questions:
 How do internet memes as a genre of communication facilitate the creation of collective understanding within online communities, particularly through production, dissemination, and remixing?  
 What patterns of interaction, imitation, and modification emerge during the evolution of meme content on the subreddit?
 How do users engage with and co-create meaning through memes? Is the process of reaching collective understanding smooth or does it involve disruptions or reinterpretations?  
-How does the ambiguity (the diversification of sentiment and topics) of meme templates impact their popularity and the process of their spread across the community?
+* How does the ambiguity (the diversification of sentiment and topics) of meme templates impact their popularity and the process of their spread across the community?
 Does a higher degree of vagueness in a meme’s format (in terms of meaning or message) encourage greater creativity and user participation?
 How does the balance between ambiguity (agency) and shared cultural understanding affect the viral potential of memes on the subreddit?  
 
