@@ -20,7 +20,7 @@
   * Details:
     * Number of original posts: 1,508,474; Number of posts with images downloaded: 896,449. (filtered_submission, size: 2.8 G)  
     * Number of original comments: 7,128,785; Number of filtered comments: 5,303,614. (filteres_comments, size: 6.8 G)  
-    * Images size: 234G (images).   
+    * Images size: 234G.   
    
 
    
