@@ -3,7 +3,7 @@ import aiohttp
 import asyncio
 from datetime import datetime
 
-with open('/Users/yingrongmao/Uchicago/project_memes/reddit/subreddits23/meme_submission.json') as f:
+with open('/meme_submission.json') as f:
     large_data = json.load(f)
 
 count = 0
@@ -16,7 +16,7 @@ headers = {
 }
 
 # Directory to save images
-output_dir = "/Users/yingrongmao/Uchicago/project_memes/reddit/subreddits23/images_120_end"
+output_dir = "/Images"
 
 # Function to download a single image
 async def download_image(session, item):
@@ -42,7 +42,7 @@ async def download_image(session, item):
 async def download_images(large_data):
     async with aiohttp.ClientSession() as session:
         tasks = []
-        for item in large_data[1200000:]:
+        for item in large_data:
             tasks.append(download_image(session, item))
         await asyncio.gather(*tasks)
 
