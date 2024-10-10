@@ -2,7 +2,7 @@
 ## A Study of Meme Production and Dissemination in the Largest Reddit Meme Community
 
 **Introduction**
-* Internet memes are a vital part of digital culture, functioning not as singular units of cultural transmission but as a genre of communication. They are inherently tied to agency, as their production and dissemination involve constant changes, imitations, remixes, and modifications (Wiggins, 2019). Like other cultural forms, memes evolve through interaction, production, and the co-creation of meaning. Shifman (2013) suggests that memes should be understood as “groups of content items created with awareness of each other and sharing common characteristics” (p. 367). This project aims to explore how collective understanding is formed through meme interactions—whether this process is smooth or involves significant reinterpretations—and whether such understanding remains stable or shifts over time. Additionally, the study will examine how the ambiguity of meme templates affects their popularity and spread. While vagueness can encourage creativity and agency, it may also conflict with the establishment of collective understanding.   
+* Internet memes are a vital part of digital culture, functioning not as singular units of cultural transmission but as a genre of communication. They are inherently tied to the agency, as their production and dissemination involve constant changes, imitations, remixes, and modifications (Wiggins, 2019). Like other cultural forms, memes evolve through interaction, production, and the co-creation of meaning. Shifman (2013) suggests that memes should be understood as “groups of content items created with awareness of each other and sharing common characteristics” (p. 367). This project aims to explore how collective understanding is formed through meme interactions—whether this process is smooth or involves significant reinterpretations—and whether such understanding remains stable or shifts over time. Additionally, the study will examine how the ambiguity of meme templates affects their popularity and spread. While vagueness can encourage creativity and agency, it may also conflict with the establishment of collective understanding.   
 * Significance: This project offers a large-scale, systematic investigation of meme evolution, remixing, and user engagement. By providing a deeper understanding of digital culture, collective meaning-making, and cultural reproduction, this research has broader implications for media studies and our understanding of communication in digital spaces.
 
 **Research Questions**:  
@@ -30,7 +30,7 @@
     * Store all data in the Midway HPC.
   * Data Processing
     * Perform perceptual hashing and Locality Sensitivity Hashing to classify memes into different clusters based on whether they use the same templates (visual characteristics such as the main figure on the images).
-    * Extract text from memes to analyze both visual and textual content.
+    * Extract text from memes and store them in a single file with links to posts.
   * Data Analysis
     * Use natural language processing (NLP) techniques to analyze titles, descriptions, and texts extracted from the memes for content meaning (mainly topic and sentiment).
     * Use upvotes, upvote ratios, and comments, combined with the results of the content analysis above, to measure the ambiguity of meme templates.
