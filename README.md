@@ -25,9 +25,11 @@
 
    
 **Methods**:  
-  * Data Collecting and Pre-processing  
+  * Data Collection  
     * Based on the metadata obtained from Academic Torrents, download the corresponding image of each post, delete the empty pages (the post was deleted), select the content with .jpg or .png formats, and select corresponding submissions info and comments info.
-    * Perform image recognition (e.g., through CNN) to classify meme templates and identify relationships between similar memes based on visual characteristics and variations.
+    * Store all data in the Midway HPC.
+  * Data Processing
+    * Perform perceptual hashing and Locality Sensitivity Hashing to classify memes into different clusters based on whether they use the same templates (visual characteristics such as the main figure on the images).
     * Extract text from memes to analyze both visual and textual content.
   * Data Analysis
     * Use natural language processing (NLP) techniques to analyze titles, descriptions, and texts extracted from the memes for content meaning (mainly topic and sentiment).
