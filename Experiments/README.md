@@ -21,6 +21,8 @@ This directory contains the scripts and output files related to meme clustering 
 
 ## Output Files
 
+Here only shows the output of hash_size=8, eps=0.1.  
+
 - **[hashing_24271809_0.out](https://github.com/MaoYingrong/MEMEs_culture_evolution/edit/main/Experiments/hashing_24271809_0.out)**:
   - These are output logs from the hashing and clustering experiments. They contain information such as execution time, the number of clusters formed, and the number of images stored in clusters. 
 
