@@ -33,11 +33,6 @@ This directory contains the scripts and output files related to meme clustering 
 - **[similarity_ratios_hs01_eps10.csv](https://github.com/MaoYingrong/MEMEs_culture_evolution/edit/main/Experiments/similarity_ratios_hs01_eps10.csv)**:
   - A CSV file that summarizes the similarity ratios across different clusters using the parameters `hash_size=8` and `eps=0.10`. It likely contains metrics that evaluate the effectiveness of the clustering process, such as the percentage of images correctly grouped together.
 
-## Notes
-
-- All code for these experiments is available in this repository. To reproduce the results, please run the appropriate Python scripts (`hashing_clustering.py`, `check_fp.py`) using the provided SBATCH scripts for parallel processing on an HPC system.
-- Further details about the experiment methodology, including parameter tuning and performance evaluation, can be found in the LaTeX project reports.
-
 ---
 
 For more information on the experiment results and methodology, refer to the full project report and code documentation in this repository: [MEMEs_culture_evolution](https://github.com/MaoYingrong/MEMEs_culture_evolution).
