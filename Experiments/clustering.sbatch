@@ -5,7 +5,7 @@
 #SBATCH --error=logs/hashing_%j_%t.err   # Error file will have job ID and task ID
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --mem=2G
+#SBATCH --mem=10G
 #SBATCH --partition=caslake
 #SBATCH --account=macs40123
 #SBATCH --array=0-19             # 20 tasks (4 hash sizes * 5 eps values)
