@@ -21,13 +21,12 @@
     * Based on the metadata obtained from Academic Torrents, download the corresponding image of each post, delete the empty pages (the post was deleted), select the content with .jpg or .png formats, and select corresponding submissions info and comments info.
     * Store all data in the Midway HPC.
   * Data Processing
-    * Perform perceptual hashing and Locality Sensitivity Hashing to classify memes into different clusters based on whether they use the same templates (visual characteristics such as the main figure on the images).
-    * Extract text from memes and store them in a single file with links to posts.
+    * Use a pre-trained neural network (Resnet50) to extract features of all images, then use HDBSCAN clustering methods to group meme images based on whether they’re using the same template.
+    * Use a pre-trained model to extract text from meme images.
   * Data Analysis
-    * Use natural language processing (NLP) techniques to analyze titles, descriptions, and texts extracted from the memes for content meaning (mainly topic and sentiment).
-    * Use upvotes, upvote ratios, and comments, combined with the results of the content analysis above, to measure the ambiguity of meme templates.
-    * Use the amount of meme templates’ appearance in a fixed time period (one week or one month) to measure their popularity and dominance over time.
-    * Use time-series regression or other models to analyze the progression of memes over time to observe how certain templates or memes evolve. Track changes in meme format, message, and themes as they are adapted and remixed by users. Map out meme variations to explore how collective understanding emerges and whether it encounters twists and turns. Examine how ambiguity or lack thereof might have contributed to their spread across the subreddit.  
-  * Case Studies:
-    * Select one or a few certain meme templates for more detailed interpretation in the paper. Analyze their evolution, spread, and the types of discourse they generate in the comments. This will help illustrate the dynamic between agency, vagueness, and collective understanding.  
-
+    * Link all/most meme clusters to the meme template in the Know Your Meme website, which provides a series of tags, such as “animal” ”film
+adaptation” and “rage face”. Explore higher-level grouping.
+    * Also try to use the results of NLP analysis on titles and text on images, sentiment analysis on each image, upvotes, upvote ratios, and comments, combined with the results of the content analysis above, to measure the ambiguity of meme templates.
+    * Divide all data into time units (one week) and calculate the portion of each meme group. Use the number of appearances of meme templates within groups to measure their popularity and dominance over time.
+    * Analyze the changing pattern of meme groups.
+    * Use time-series statistical models to analyze the evolutionary mechanism of internet memes (Diversification Rate).
