@@ -1,18 +1,10 @@
-# Exploring Collective Understanding and Ambiguity in Culture Evolution  
-## A Study of Meme Production and Dissemination in the Largest Reddit Meme Community
+# How do Communication Meme Evolve in Digital Culture?  
 
 **Introduction**
-* This project aims to study the popularity and evolution of memes. Based on
-Wiggins’ theory that memes represent a new genre of online communication, I first start by exploring how the customizability of a meme image affects its popularity. While high customizability can encourage creativity and agency, it may also conflict with the establishment of collective understanding. (However, this question may become problematic because of bidirectional causality, or endogeneity, so I’ll look for other features related to communication.) For the part of meme evolution, I want to combine its popularity/dominance analysis with cultural evolution theories, to understand meme evolution from the population level instead of the individual level (for a few meme images).
-* This project offers a large-scale, systematic investigation of meme evolution, remixing, and user engagement. By providing a deeper understanding of digital culture, collective meaning-making, and cultural reproduction, this research has broader implications for media studies and our understanding of communication in digital spaces.  
-**Research Questions**:  
-  * How do internet memes as a genre of communication facilitate the creation of collective understanding within online communities, particularly through production, dissemination, and remixing?  
-    * What patterns of interaction, imitation, and modification emerge during the evolution of meme content on the subreddit?  
-    * How do users engage with and co-create meaning through memes? Is the process of reaching collective understanding smooth or does it involve disruptions or reinterpretations?  
-
-  * How does the ambiguity (the diversification of sentiment and topics) of meme templates impact their popularity and the process of their spread across the community?  
-    * Does a higher degree of vagueness in a meme’s format (in terms of meaning or message) encourage greater creativity and user participation?  
-    * How does the balance between ambiguity (agency) and shared cultural understanding affect the viral potential of memes on the subreddit?  
+* This project aims to study the evolution of communication symbols by using Internet memes as a case study. The rise of the internet and social media has brought digital icons to the forefront of communication symbols, transforming them into a fundamental aspect of daily communication. Internet memes represent more than merely humorous images paired with text; they constitute a new genre of online communication that is created, perceived, imitated, remixed, and modified by users across digital platforms (Wiggins & Bowers, 2015). Similar to other forms of popular culture, only a limited number of images capture widespread public attention and the popularity of these chosen images fluctuated over time. Beyond individual meme templates, it is valuable to explore whether there are more significant, macro-level trends in the development of memes within digital culture, as well as the mechanisms driving such trends.  
+* Accordingly, this study can be broken down into the following specific questions:
+  * Are there macro-level changes observable in the development of internet memes over time?
+  * What are the mechanisms that contribute to changes in the forms and popularity of internet memes?     
 
 
 **Data**:    
