@@ -24,7 +24,7 @@
     * Use a pre-trained neural network (Resnet50) to extract features of all images, then use HDBSCAN clustering methods to group meme images based on whether they’re using the same template.
     * Use a pre-trained model to extract text from meme images.
   * Data Analysis
-    * Link all/most meme clusters to the meme template in the Know Your Meme website, which provides a series of tags, such as “animal” ”film
+    * Link all/most meme clusters to the meme template in the [Know Your Meme](https://knowyourmeme.com/) website, which provides a series of tags, such as “animal” ”film
 adaptation” and “rage face”. Explore higher-level grouping.
     * Also try to use the results of NLP analysis on titles and text on images, sentiment analysis on each image, upvotes, upvote ratios, and comments, combined with the results of the content analysis above, to measure the ambiguity of meme templates.
     * Divide all data into time units (one week) and calculate the portion of each meme group. Use the number of appearances of meme templates within groups to measure their popularity and dominance over time.
