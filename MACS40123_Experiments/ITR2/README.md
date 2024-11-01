@@ -1,20 +1,20 @@
 # ITR2
 ## Scripts
 
-- **[nn_clustering.py](https://github.com/MaoYingrong/MEMEs_culture_evolution/edit/main/Experiments/hashing_clustering.py)**:
-  - This Python script applies perceptual hashing (pHash) and DBSCAN, to cluster meme images. Parameters such as `hash_size` and `eps` (epsilon) are adjustable to optimize the clustering performance.  
+- **[nn_clustering.py](https://github.com/MaoYingrong/MEMEs_culture_evolution/blob/main/MACS40123_Experiments/ITR2/nn_clustering.py)**:
+  - This file uses neural network-based feature extraction, calculated pairwise similarity, and clustered meme images.  
 
-- **[distribution.py](https://github.com/MaoYingrong/MEMEs_culture_evolution/edit/main/Experiments/clustering.sbatch)**:
-  - A batch script for submitting the clustering job to the HPC system, allowing for the efficient clustering of large datasets by utilizing parallel processing.
+- **[distribution.py](https://github.com/MaoYingrong/MEMEs_culture_evolution/blob/main/MACS40123_Experiments/ITR2/distribution.py)**:
+  - A script used to draw the graph of the distribution of cluster size. 
 
-- **[extract_features_p.py](https://github.com/MaoYingrong/MEMEs_culture_evolution/edit/main/Experiments/check_fp.py)**:
-  - This script is used to check false positives within clusters. It helps identify and flag images that have been incorrectly clustered together by comparing them based on their visual features.
+- **[extract_features_p.py](https://github.com/MaoYingrong/MEMEs_culture_evolution/blob/main/MACS40123_Experiments/ITR2/extract_features_p.py)**:
+  - This script extracts image features for each meme. For each image, the feature is a 2048-dimensional vector.
 
-- **[extract_features_p.sbatch](https://github.com/MaoYingrong/MEMEs_culture_evolution/edit/main/Experiments/check_fp.sbatch)**:
-  - This Slurm batch script is used to submit the `check_fp.py` script to the high-performance computing (HPC) system, automating the false positive checking process for large datasets.
+- **[extract_features_p.sbatch](https://github.com/MaoYingrong/MEMEs_culture_evolution/blob/main/MACS40123_Experiments/ITR2/extract_features_p.sbatch)**:
+  - This Slurm batch script is used to submit extract_features_p.py.
 
-- **[hds_tril_p.py](https://github.com/MaoYingrong/MEMEs_culture_evolution/edit/main/Experiments/image_lsh.py)**:
-  - This script tests the application of Locality-Sensitive Hashing (LSH) on the meme dataset. It assesses the feasibility of LSH for clustering images but has shown limitations due to the image characteristics, such as noise and textual overlays.
+- **[hds_trial_p.py](https://github.com/MaoYingrong/MEMEs_culture_evolution/blob/main/MACS40123_Experiments/ITR2/hds_trial_p.py)**:
+  - This script applies hierarchical density-based clustering directly on all image features. 
  
-- **[hds_tril_p.sbatch](https://github.com/MaoYingrong/MEMEs_culture_evolution/edit/main/Experiments/image_lsh.py)**:
-  - This script tests the application of Locality-Sensitive Hashing (LSH) on the meme dataset. It assesses the feasibility of LSH for clustering images but has shown limitations due to the image characteristics, such as noise and textual overlays.
+- **[hds_trial_p.sbatch](https://github.com/MaoYingrong/MEMEs_culture_evolution/blob/main/MACS40123_Experiments/ITR2/hds_trial_p.sbatch)**:
+  - This sbatch file is used to run the hds_trial_p.py.
