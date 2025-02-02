@@ -10,9 +10,9 @@
 **Data**:    
   * All posts (2008/12 - 2023/12) from a subreddit called “meme”, which is the earliest and the second largest meme community in Reddit with more than 2.6 million members. Each data point includes the title, meme image, description, posting time, upvote number, upvote ratio, author ID, and comments.
   * Details:
-    * Number of original posts: 1,508,474; Number of posts with images downloaded: 896,449. (filtered_submission, size: 2.8 G)  
-    * Number of original comments: 7,128,785; Number of filtered comments: 5,303,614. (filteres_comments, size: 6.8 G)  
-    * Images size: 234G.   
+    * Meme: Number of original posts: 1,508,474; Number of posts with images downloaded: 896,449. (filtered_submission, size: 2.8 G); Number of original comments: 7,128,785; Number of filtered comments: 5,303,614. (filteres_comments, size: 6.8 G); Images size: 234G.
+    * Memes:
+    * Dankmemes: 
    
 
    
